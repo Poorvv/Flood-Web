@@ -1,0 +1,36 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(197, 192, 192);
+    margin: 20px 30px;
+}
+.header{
+    text-align: center;
+    font-size: 25px;
+}
+.sub-title{
+    text-align: center;
+}
+.initiative{
+    margin-top: 5vh;
+}
+h2{
+    text-align: center; padding: 20px;
+}
+p{
+    font-size: 20px; 
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.home p {
+    
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+    text-align: center;
+}

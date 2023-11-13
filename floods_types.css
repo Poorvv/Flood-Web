@@ -1,0 +1,53 @@
+.header {
+    font-size: 40px;
+    text-align: center;
+
+    padding: 10px 30px;
+}
+
+body {
+    background-color: rgb(197, 192, 192);
+}
+
+#line1 {
+    text-align: center;
+}
+
+#line2 {
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+}
+
+.content {
+    margin: 0em 5em;
+}
+
+.photo1 {
+    margin: 2em;
+    float: left;
+}
+
+.photo2 {
+    margin: 2em;
+    float: right;
+}
+
+p b a {
+    text-decoration: none;
+}
+
+.point {
+    color: rgb(37, 52, 47);
+    font-size: larger;
+}
+
+p {
+    font-size: large;
+}
+
+li {
+    font-size: larger;
+}

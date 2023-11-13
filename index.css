@@ -1,5 +1,108 @@
-h1{
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 50px;
+*{
+    background-color: antiquewhite;
+    
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+#nav{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+}
+.navLEFT{
+    width: 60%;
+    display: flex;
+}
+.navLEFT img{
+    border-radius: 50%;
+    padding-left: 10px;
+}
+.name{
+    color: green;
+}
+#signup_id{
+    height: 30px;
+    width: 100px;
+    padding-top: 2px;
+    font-size: 20px;
+    font-weight: 545;
+}
+.navRIGHT{
+    width: 40%;
+    display: flex;
+    gap: 40px;
+    margin-top: 25px;
+}
+.navRIGHT a{
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.contentHEADING{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contentTEXT{
+    margin: 40px;
+    font-size: 20px;
+}
+#BLOCK-1{
+    display: flex;
+    margin: 40px;
+}
+.text-1{
+    width: 50%;
+}
+.text-1-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.text-1-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 20px;
+}
+.text-1-a a{
+    text-decoration: none;
+}
+.image-1{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#BLOCK-2{
+    display: flex;
+    margin: 40px;
+}
+.text-2{
+    width: 50%;
+}
+.text-2-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.image-2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+    margin-left: 300px;
+    width: 800px;
+    height: 100px;
 }

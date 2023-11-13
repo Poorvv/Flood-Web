@@ -1,0 +1,97 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-image: url('signupbgg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signicon{
+    background-image: url(blankpfp.jpg);
+    width:30px;
+    height: 30px;
+    background-size: contain;
+    position:relative;
+    padding:20px;
+    border-radius:50%;
+    left:41%;
+
+}
+
+.signup-form {
+    background-color: rgba(1,214,194,0.8);
+    padding: 20px;
+    width:500px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 51, 94, 0.3);
+    box-shadow: 0 0 10px 5px rgb(0, 51, 94) inset;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+label{
+    color:#00335e;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+
+.signup-button {
+    background-color: #00335d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-group .checkbox-label {
+    display: flex;
+    align-items: center;
+}
+.form-group input[type="checkbox"] {
+    margin-right: 50px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.form-group input[type="terms"]{
+    margin-bottom: 50px;
+}
+
+.a{
+    display:flex;
+    align-items: center;
+}
+.signup-button.clicked {
+    background-color: orange;
+} 
